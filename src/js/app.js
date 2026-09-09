@@ -1,5 +1,5 @@
 console.log("Accedí a JS");
-
+/* Estructuras de funciones */
 function saludoFuncion() {
     console.log("hola desde la función")
 }

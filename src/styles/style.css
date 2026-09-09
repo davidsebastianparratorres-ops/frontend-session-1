@@ -1,10 +1,16 @@
+body
+{margin:10px;}
+
 .menu{
     background-color:#f2f2f2 ;
 }
 
+.container{
+    padding: 20px;
+}
 .card{
     /* estilos div */
-    background-color: #a7a7a7;
+    background-color: #ddce8f;
     width: 300px;
     border-radius: 10px;
     padding-left: 20px;
@@ -14,18 +20,33 @@
 }
 
 .card img{
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
 }
-
+.text-card{
+    padding: 20px;
+}
 .text-card p{
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 14px;    
 }
 
 .button-card {
     padding: 10px 20px;
     text-decoration: none;
+}
+
+.button-card button{
+    border-radius: 15px;
+    background-color: rgb(211, 177, 84);
+    color: rgb(245, 247, 247);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-card button:hover{
+    background-color: #d09808;
+    color: #ffffff;
+    
 }
